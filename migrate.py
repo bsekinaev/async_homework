@@ -18,6 +18,10 @@ characters_table = Table(
     Column('skin_color', String),
     Column('mass', String),
     Column('homeworld', String),
+    Column('films', String),
+    Column('species', String),
+    Column('starships', String),
+    Column('vehicles', String),
 )
 
 async def run_migration():
